@@ -6,7 +6,7 @@ The goal is to explore CLI-Shell apps, low-level graphics (screens/bitplanes/spr
 
 ## Motivation
 
-This project was born from a question that has been in my mind for the last 25 years:
+This project was born from a question that has been in my mind for many years:
 
 > *"Could I use C to create something useful and usable for a computer that is now over 40 years old?, I mean ,in 2025?"*
 
