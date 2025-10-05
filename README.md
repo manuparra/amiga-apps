@@ -16,6 +16,19 @@ Part of the challenge is twofold:
 
 Beyond the technical side, it’s also a personal experiment in creativity, nostalgia, and the art of programming when hardware limitations force you to be both efficient and inventive.
 
+# How to compile
+
+To compile for `kickstart 1.3` with includes in `/opt/NDK_3.9/Include/include_h` and linker to `amiga`, use the next:
+
+```
+docker run -u 1000:uucp -v $PWD:/host -w /host --rm vintagecomputingcarinthia/vbcc4vcc vc -v +kick13 -I/opt/NDK_3.9/Include/include_h -o example example.c -lamiga
+```
+
+Then within the emulator or phisical machine, type in a Amiga Shell
+
+```
+example
+```
 
 # Platform limits (Amiga 500, KS/WB 1.3)
 
