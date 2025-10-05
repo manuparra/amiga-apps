@@ -24,7 +24,7 @@ To compile for `kickstart 1.3` with includes in `/opt/NDK_3.9/Include/include_h`
 docker run -u 1000:uucp -v $PWD:/host -w /host --rm vintagecomputingcarinthia/vbcc4vcc vc -v +kick13 -I/opt/NDK_3.9/Include/include_h -o example example.c -lamiga
 ```
 
-Then within the emulator or phisical machine, type in a Amiga Shell
+Then within the emulator or in a AMIGA machine, type in a Amiga Shell
 
 ```
 example
